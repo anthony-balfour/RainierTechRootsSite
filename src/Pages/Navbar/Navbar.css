@@ -1,0 +1,29 @@
+nav {
+  height: 15vh;
+  justify-content: space-between;
+  outline: 2px solid limegreen;
+}
+.nav-links-container {
+  outline: 1px solid red;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links-list {
+  outline: 1px solid blue;
+  width: inherit;
+  justify-content: space-around;
+  flex-direction: row;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: inherit;
+}
+
+

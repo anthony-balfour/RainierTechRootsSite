@@ -2,7 +2,11 @@ import React from 'react'
 import './LandingPage.css'
 
 export default function LandingPage() {
+
+
   return (
-    <div>LandingPage</div>
+    <figure>
+      <img src="Zoro.jpg" alt="two kids coding" />
+    </figure>
   )
 }
