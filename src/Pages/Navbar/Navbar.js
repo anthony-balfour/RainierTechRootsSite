@@ -2,12 +2,13 @@ import React from 'react'
 import './Navbar.css';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import '../../../src/global.css';
+import logo from '../assets/logo5cropped.png';
 
 export default function Navbar() {
   return (
     <nav className="flex">
       <figure>
-
+        <img id="logo" src={logo} alt="Rainier Tech Roots Logo" />
       </figure>
       <section className="nav-links-container">
         <ul className="flex nav-links-list">

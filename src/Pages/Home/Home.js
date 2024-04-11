@@ -1,9 +1,10 @@
 import React from 'react'
-import LandingPage from './Sections/LandingPage/LandingPage.js'
+import LandingPage from './Sections/LandingPage/LandingPage'
 
 export default function Home() {
   return (
-    <LandingPage />
-    
+    <section>
+      <LandingPage />
+    </section>
   )
 }
