@@ -1,6 +1,5 @@
 .landing-page-container {
   position: relative;
-  outline: 3px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +18,11 @@
 }
 
 .welcome-message-container h1 {
-  font-size: 3rem;
+  font-size: 5.1rem;
+}
+
+.welcome-message-container p {
+  font-size: 1.2rem;
 }
 
 .white-text {
@@ -39,6 +42,11 @@
   border-radius: 3px;
   font-size: 10px;
   font-size: 18px;
-  color: rgba(255,255,255, 0.9)
+  color: rgba(255,255,255, 0.9);
+  transform: translateY(3rem);
+}
+
+#button:hover {
+  cursor: pointer;
 }
 

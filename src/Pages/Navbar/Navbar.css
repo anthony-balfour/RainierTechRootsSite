@@ -13,7 +13,6 @@ nav {
 }
 
 .nav-links-container {
-  outline: 1px solid red;
   width: 40vw;
   display: flex;
   align-items: center;
@@ -21,7 +20,6 @@ nav {
 }
 
 .nav-links-list {
-  outline: 1px solid blue;
   width: inherit;
   justify-content: flex-end;
   flex-direction: row;

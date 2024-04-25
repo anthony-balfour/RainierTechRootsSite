@@ -1,0 +1,12 @@
+.footer-container {
+  width: 65vw;
+  height: 25vh;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container p {
+  padding: 18px;
+  font-size: 14px;
+}
