@@ -19,7 +19,7 @@ export default function Navbar() {
             <Link to="/about" className="nav-links">About</Link>
           </li>
           <li>
-            <Link to="/contact" className="nav-links">Contact</Link>
+            <Link to="https://calendly.com/rainiertechroots/30min" className="nav-links contact">Contact</Link>
           </li>
         </ul>
       </section>

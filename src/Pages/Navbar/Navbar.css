@@ -1,7 +1,6 @@
 nav {
   height: 12.9vh;
   justify-content: space-between;
-  outline: 2px solid limegreen;
   align-items: center;
   padding-left: 4rem;
 }
@@ -37,5 +36,32 @@ nav {
   color: rgb(15,57,130);
   font-size: 0.75rem;
 }
+
+/* Mobile */
+
+/* Nav Mobile */
+
+@media screen and (max-width: 450px) {
+  nav {
+    justify-content: flex-end;
+    border: 1px solid red;
+    position: relative;
+  }
+
+  .nav-links {
+    display: none;
+  }
+  .contact {
+    display: block;
+    padding-right: 2.5vw;
+  }
+
+  #logo {
+    width: 140px;
+    transform: translateX(7.3vw);
+  }
+
+}
+
 
 

@@ -10,7 +10,7 @@ export default function LandingPage() {
       <article className="welcome-message-container">
         <h1 className="white-text">Welcome to</h1>
         <h1 className="green-text">Rainier Tech Roots</h1>
-        <p className="white-text">Technology for all in the Rainier Community</p>
+        <p className="white-text">Coding Tutoring for the Rainier Community</p>
         <button id="button" className="white-text">Join The Cause</button>
       </article>
 

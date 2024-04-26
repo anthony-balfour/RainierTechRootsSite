@@ -5,11 +5,12 @@ export default function Footer() {
   return (
     <footer>
       <section className='footer-container flex'>
-        <p>©2024 by Rainier Tech Roots. Located in South Seattle.</p>
+        <div className="flex contact">
+        <p>©2024 by Rainier Tech Roots. Location in South Seattle
+        </p>
+        </div>
         <div>
-          <img />
-          <img />
-          <img />
+        <p>rainiertechroots@gmail.com</p>
         </div>
       </section>
     </footer>

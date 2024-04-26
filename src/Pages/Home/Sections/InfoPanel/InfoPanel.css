@@ -25,7 +25,7 @@
   object-fit: cover;
 }
 
-.info-panel-container button {
+.info-panel-container .book-meeting {
     padding: 7px 30px;
     background-color: #1F8833;
     border: none;
@@ -38,6 +38,7 @@
     position: absolute;
     bottom: -5rem;
     left: 0;
+    text-decoration: none;
 }
 
 .info-panel-text p {
