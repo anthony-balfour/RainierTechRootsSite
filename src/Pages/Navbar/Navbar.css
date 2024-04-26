@@ -44,7 +44,6 @@ nav {
 @media screen and (max-width: 450px) {
   nav {
     justify-content: flex-end;
-    border: 1px solid red;
     position: relative;
   }
 

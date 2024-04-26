@@ -50,3 +50,26 @@
   cursor: pointer;
 }
 
+/* Mobile */
+
+@media screen and (max-width: 450px) {
+  .landing-page-image {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+  }
+
+  .welcome-message-container h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  .welcome-message-container {
+   width:  69vw;
+  }
+
+  .welcome-message-container p {
+    font-size: 1rem;
+  }
+}
+
