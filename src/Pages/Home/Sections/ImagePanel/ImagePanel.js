@@ -10,13 +10,13 @@ import twokids from '../../assets/twokidscoding_m.jpg';
 
 export default function ImagePanel() {
   return (
-    <section>
-      <figure className="flex image-panel-container">
+    <section className="image-panel-container">
+      <figure className="flex image-panel">
         <img src ={glasses}/>
         <img src={redshirt} />
         <img src={smile}/>
       </figure>
-      <figure className="flex image-panel-container">
+      <figure className="flex image-panel">
         <img src={classroom} />
         <img src={aboutme} />
         <img src={twokids} />

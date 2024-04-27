@@ -36,3 +36,28 @@
 .program-icon {
   height: 8rem;
 }
+
+@media screen and (max-width: 450px) {
+  .program-icon {
+    height: 4rem;
+  }
+
+  .info-panel {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+
+  .program-paragraph {
+    max-width: 90vw;
+  }
+
+  .programs-info-container {
+    height: 185vh;
+    justify-content: space-evenly;
+  }
+
+  .programs-info-container h1 {
+    position: static;
+  }
+}

@@ -1,13 +1,29 @@
-.image-panel-container {
+.image-panel {
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 56.6vh;
 }
 
-.image-panel-container img {
+.image-panelimg {
   width: 33%;
   height: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 450px) {
+  .image-panel {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .image-panel img {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .image-panel-container {
+  }
 }
 

@@ -55,12 +55,12 @@
 @media screen and (max-width: 450px) {
   .landing-page-image {
     width: 100vw;
-    height: 60vh;
+    height: 100%;
     object-fit: cover;
   }
 
   .welcome-message-container h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.2;
   }
 
@@ -70,6 +70,10 @@
 
   .welcome-message-container p {
     font-size: 1rem;
+  }
+
+  .landing-page-container {
+    height: 67vh;
   }
 }
 

@@ -49,3 +49,30 @@
   color: #333333;
   position: relative;
 }
+
+@media screen and (max-width: 450px) {
+  .info-panel-container h1 {
+    font-size: 2rem;
+    width: 70%;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .info-panel-container {
+    flex-direction: column;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+
+  .info-panel-container img {
+    width: 100vw;
+    height: 60vh;
+  }
+
+  .info-panel-text p {
+    width: 85%;
+    text-align: center;
+    position: relative;
+  }
+}
