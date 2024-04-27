@@ -1,6 +1,7 @@
 import React from 'react'
 import './LandingPage.css'
 import kidsCodingImage from '../../assets/kidscoding_l.jpg'
+import {Link} from 'react-router-dom';
 
 export default function LandingPage() {
 
@@ -11,7 +12,8 @@ export default function LandingPage() {
         <h1 className="white-text">Welcome to</h1>
         <h1 className="green-text">Rainier Tech Roots</h1>
         <p className="white-text">Coding Tutoring for the Rainier Community</p>
-        <button id="button" className="white-text">Join The Cause</button>
+        <button id="button" className="white-text"><Link to="https://calendly.com/rainiertechroots/30min" className="candidly" to="">
+          Join The Cause</Link></button>
       </article>
 
     </figure>

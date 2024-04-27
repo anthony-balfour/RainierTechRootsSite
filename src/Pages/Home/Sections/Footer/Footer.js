@@ -6,7 +6,7 @@ export default function Footer() {
     <footer>
       <section className='footer-container flex'>
         <div className="flex contact">
-        <p>©2024 by Rainier Tech Roots. Location in South Seattle.
+        <p>©2024 by Rainier Tech Roots. Located in South Seattle.
         </p>
         </div>
         <div>
