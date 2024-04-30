@@ -33,6 +33,11 @@
   color: #1F8833;
 }
 
+.candidly {
+  text-decoration: none;
+  color: inherit;
+}
+
 #button {
   padding: 7px 30px;
   background-color: #1F8833;
